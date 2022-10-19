@@ -17,31 +17,37 @@ public class Driver : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other) 
     {
-        moveSpeed = slowSpeed;
-        Debug.Log("Slowing");
+        //moveSpeed = slowSpeed;
+        //Debug.Log("Slowing");
     }
 
     void OnTriggerEnter2D(Collider2D other) 
     {
+
+        //Start timer if a boost was hit
         if(other.tag == "Boost")
         {
-            Debug.Log("Boosting");
             moveSpeed = boostSpeed;
         }
+
+        //Slow down if an obstacle is hit
         else if(other.tag == "Obstacle")
         {
             moveSpeed = slowSpeed;
-            Debug.Log("Slowing");
         }
+
+        Debug.Log(moveSpeed);
     }
 
     void OnTriggerExit2D(Collider2D other) 
     {
+        //Reset moveSpeed when no longer colliding with obstacles
         if(other.tag == "Obstacle")
         {
             moveSpeed =  defaultSpeed;
-            Debug.Log("Returning to default speed");
         }    
+
+        Debug.Log(moveSpeed);
     }
 
     // Update is called once per frame
