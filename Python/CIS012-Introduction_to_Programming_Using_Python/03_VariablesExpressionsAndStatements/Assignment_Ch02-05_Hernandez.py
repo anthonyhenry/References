@@ -25,3 +25,8 @@ seconds = int(seconds)
 print(seconds)
 
 print("The equivalent time in hours:minutes:seconds = " + str(hours) + ":" + str(minutes) + ":" + str(seconds))
+
+# How to do with mod:
+# hours = int(seconds / (60**2))
+# minutes = int((seconds / 60) % 60) 
+# seconds = int(seconds % 60)
