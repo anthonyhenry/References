@@ -1,0 +1,125 @@
+def newSection():
+    print("\n")
+
+# Strings
+    # For Strings, + means concatenate
+    # Strings can include numbers
+    # Convert strings to integers using int()
+
+str1 = "Hello"
+str2 = "there"
+str3 = str1 + str2
+print(str3)
+
+newSection()
+
+# Looking inside strings
+    # You can look at any single character in a string using an index
+fruit = "banana"
+letter = fruit[5]
+print(letter)
+
+newSection()
+
+# Strings have length
+    # Use len() to find the length of a string
+fruit = "apple"
+print(len(fruit))
+print(fruit[len(fruit)-1])
+
+newSection()
+
+# Looping through strings
+fruit = "orange"
+index = 0
+while(index < len(fruit)):
+    letter = fruit[index]
+    letter = str(index) + ": " + letter
+    print(letter)
+    index = index + 1
+
+print("---")
+
+index = 0
+while(index < len(fruit)):
+    if(index % 2 == 0):
+        letter = fruit[index]
+        print(letter)
+    index = index + 1
+
+print("---")
+
+for letter in fruit:
+    print(letter)
+
+newSection()
+
+#Slicing Strings
+    # You can look at any continuous section of a string using a colon operator
+    # The second number is one beyond the end of the slice - “up to but not including”
+    # If the second number is beyond the end of the string, it stops at the end 
+name = "Monty Python"
+print(name[0:5])
+print(name[6:7]) # This only prints 1 character
+print(name[6:20]) # This one goes over the string length
+
+newSection()
+
+# Using in as a logical operator
+    # With strings, the in keyword can be used to check if one string is included in another
+fruit = "melon"
+print("n" in fruit)
+print("no" in fruit)
+print("on" in fruit)
+
+newSection()
+
+
+# String Comparison
+word = "baast"
+
+if word == 'banana':
+    print('All right, bananas.')
+
+if word < 'banana':
+    print('Your word,' + word + ', comes before banana.')
+elif word > 'banana':
+    print('Your word,' + word + ', comes after banana.')
+else:
+    print('All right, bananas.')
+
+newSection()
+
+#String Library
+greet = "Hello Bob"
+print(greet)
+
+greet = greet.lower() # Makes all the characters lowercase
+print(greet)
+
+nameStart = greet.find(" ") # Find a character in a string
+print(greet[(nameStart + 1):len(greet)].upper()) # Make all characters uppercase
+
+greet = greet.replace("bob", "Jane") # Replace all occurances of the search string with the replacement string
+print(greet)
+
+greet = "   Hello Bob  "
+print(greet)
+greet = greet.lstrip() # Removes white space from the start of a string
+print(greet)
+greet = greet.rstrip() # Removes white space from the end of a string
+print(greet)
+
+print(greet.startswith("hello"))
+print(greet.startswith("Hello"))
+
+newSection()
+
+# Parsing and extracting
+data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+atPos = data.find("@") # Find the position of the @ symbol
+print(atPos)
+spacePos = data.find(" ", atPos) # Find the first space after the @
+print(spacePos)
+host = data[atPos+1:spacePos]
+print(host)
