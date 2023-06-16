@@ -123,3 +123,57 @@ spacePos = data.find(" ", atPos) # Find the first space after the @
 print(spacePos)
 host = data[atPos+1:spacePos]
 print(host)
+
+## Files
+    # Use the open() function to access files
+file = open(r"C:\GitHub-Repositories\References\Python\CIS012-Introduction_to_Programming_Using_Python\06_StringsAndFiles\hello-world.txt")
+print(file)
+
+lineCount = 0
+for line in file: # This will loop for as many lines as there are in file
+    lineCount = lineCount + 1
+
+print(lineCount, "lines in file")
+
+newSection()
+
+# You can read the contents of a file using the .read() function
+file = open(r"C:\GitHub-Repositories\References\Python\CIS012-Introduction_to_Programming_Using_Python\06_StringsAndFiles\hello-world.txt")
+content = file.read()
+print(content)
+
+newSection()
+
+file = open(r"C:\GitHub-Repositories\References\Python\CIS012-Introduction_to_Programming_Using_Python\06_StringsAndFiles\hello-world.txt")
+content = file.read()
+print(content[:4]) # Print first 4 characters of the file
+
+newSection()
+
+# Print only certain lines from a file
+mboxfile = open(r"C:\GitHub-Repositories\References\Python\CIS012-Introduction_to_Programming_Using_Python\06_StringsAndFiles\mbox.txt")
+
+for line in mboxfile:
+    line = line.rstrip() # Use .rstrip() to remove new lines from the end of a line
+    if line.startswith("From: "):
+        print(line)
+
+newSection()
+
+mboxfile = open(r"C:\GitHub-Repositories\References\Python\CIS012-Introduction_to_Programming_Using_Python\06_StringsAndFiles\mbox.txt")
+
+for line in mboxfile:
+    line = line.rstrip()
+    if not "anthony" in line:
+        continue
+    print(line)
+
+
+filename = input("Enter the file name: ")
+try:
+    filehandle = open(filename)
+except:
+    print("File cannot be opened", filename)
+    quit() # You can exit a program with quit()
+
+print("Success!")
