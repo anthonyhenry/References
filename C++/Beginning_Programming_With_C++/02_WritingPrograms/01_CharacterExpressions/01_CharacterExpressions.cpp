@@ -1,4 +1,5 @@
 // Character Encoding - allow the user to enter a numeric value then print that value as its ASCII character
+// Chart of ASCII character encoding: https://www.ascii-code.com/
 
 #include <cstdio>
 #include <cstdlib>
