@@ -1,13 +1,13 @@
 // Character Encoding - allow the user to enter a numeric value then print that value as its ASCII character
 // Chart of ASCII character encoding: https://www.ascii-code.com/
 
-#include <cstdio>
-#include <cstdlib>
+// #include <cstdio>
+// #include <cstdli0b>
 #include <iostream>
 
 using namespace std;
 
-int main(int nNumberofArgs, char* pszArgs[])
+int main()
 {
 	//Character constants are defined as a single charactar enclosed in single quotes
 	char letterA = 'A';
