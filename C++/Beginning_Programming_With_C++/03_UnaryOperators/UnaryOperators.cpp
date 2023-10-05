@@ -1,4 +1,4 @@
-// UnaryOperators - demonstrate the use of unary operators
+// Unary Operators - demonstrate the use of unary operators
 
 #include <iostream>
 

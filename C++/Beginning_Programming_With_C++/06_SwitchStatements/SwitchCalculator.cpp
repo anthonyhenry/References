@@ -1,4 +1,4 @@
-// A Simple calculator that demonstrates the use of switch statments
+// Switch Calculator - A Simple calculator that demonstrates the use of switch statments
 
 #include <iostream>
 

@@ -1,4 +1,4 @@
-// If Statement Demonstration
+// Is Statements - Determine what century the user was born
 
 #include <iostream>
 
