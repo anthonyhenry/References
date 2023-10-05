@@ -1,5 +1,4 @@
-// 04_SwitchStatments.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// A Simple calculator that demonstrates the use of switch statments
 
 #include <iostream>
 
@@ -53,7 +52,8 @@ int main()
     }
 
     cout << endl;
-    system("PAUSE");
-    return 0;
 
+    system("PAUSE");
+    
+    return 0;
 }
