@@ -23,4 +23,6 @@ int main()
 	cout << "The ASCII character encoding for the number you gave is [" << asciiCharacter << "]" << endl;
 
 	system("PAUSE");
+
+	return 0;
 }
