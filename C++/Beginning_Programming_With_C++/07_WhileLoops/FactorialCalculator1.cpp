@@ -36,7 +36,6 @@ int main()
         }
 
         cout << "Factorial " << factorial << " is " << total << endl; 
-
     }
 
     system("PAUSE");
