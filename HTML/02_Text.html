@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Text</title>
+    </head>
+    <body>
+        <!-- Headings -->
+        <!-- HTML has six levels of headings -->
+        <!-- Browsers display the contents of headings at different sizes largest to smallest from <h1> to <h6> -->
+        <h1>This is a main heading</h1>
+        <h2>This is a level 2 heading</h2>
+        <h3>This is a level 3 heading</h3>
+        <h4>This is a level 4 heading</h4>
+        <h5>This is a level 5 heading</h5>
+        <h6>This is a level 6 heading</h6>
+
+        <!-- Horizontal Rules -->
+        <!-- To create a space between sections, you can use the <hr/> tag -->
+        <!-- This will place a line that runs across your web page -->
+        <hr/>
+        <!-- Some tags, like <hr/>, only use one tag. These are known as empty tags. They do not have closing tags  -->
+
+        <!-- Paragraphs -->
+        <h1>Paragraphs</h1>
+        <!-- To create a paragraph, surround the words that make up the paragraph in <p></p> tags -->
+        <!-- By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraphs -->
+        <p>A paragraph consists of one or more sentences that form a self-contained unit of discourse.</p>
+        <p>Text is easier to understand when it is split up into paragraphs</p>
+
+        <hr/>
+
+        <!-- Line Breaks -->
+        <h1>Line Breaks</h1>
+        <!-- If you wanted to add a line break in the middle of a paragraph you can use the <br/> tag -->
+        <!-- This is another empty tag similar to the horizontal rule tag, <hr/> -->
+        <p>
+            The Earth<br/>
+            gets one hundred tons heavier every day<br/>
+            due to falling space dust.
+        </p>
+
+        <hr/>
+
+        <!-- Bold -->
+        <h1>Bold</h1>
+        <!-- The <strong> element indicates text that has importance -->
+        <!-- By default, browsers will show the contents of a <strong> element in bold -->
+        <p>
+            <strong>Beware:</strong> Pickpockets operate in this area.
+        </p>
+        
+        <p>
+            This toy has many small pieces and is <strong>not suitable for children under five years old.</strong>
+        </p>
+        <!-- You may also see the <b></b> tags used to make text bold in HTML. 
+        The <strong> element is a semantic markup meaning it is an elemnt that provides additional information that can be used by other programs such as screen readers or search engines
+        As a result, semantic markup is preffered over non-semantic markup -->
+
+        <hr/>
+
+        <!-- Italic -->
+        <h1>Italics</h1>
+        <!-- The <em> element indicates emphasis -->
+        <!-- By default, browsers will show the contents of an <em> element in italics -->
+        <!-- A screen reader will pronounce the words in <em> with an emphasis, using verbal stress -->
+        <p>
+            Captain Cook sailed to Australia on the <em>Endeavour</em>
+        </p>
+
+        <hr/>
+
+        <!-- Highlighted Text -->
+        <h1>Highlighted Text</h1>
+        <!-- Use the <mar<k> element to define text that should be marked or highlighted -->
+        <p>
+            Do not forget to buy <mark>milk</mark> today.
+        </p>
+
+        <hr/>
+
+        <!-- Insert & Delete -->
+        <h1>Insert & Delete</h1>
+        <!-- The <del> element defines text that has been deleted from a document -->
+        <!-- The <ins> element defines a text that has been inserted into a document -->
+        <!-- Browsers will usually strike a line through deleted text while inserted text will usually be underlined -->
+        <p>
+            My favorite color is <del>blue</del> <ins>red</ins>.
+        </p>
+
+        <hr/>
+
+        <!-- Superscript -->
+        <h1>Superscript</h1>
+        <!-- Use the <sup></sup> tags for characters that should appear in superscript such as with exponents -->
+        <!-- Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font -->
+        <p>
+            On the 4<sup>th</sup> of September you will learn about E=MC<sup>2</sup>
+        </p>
+
+        <hr/>
+
+        <!-- Subscript -->
+        <h1>Subscript</h1>
+        <!-- The <sub> element indicates characters that should appear in subscript such as with footnotes or in chemical formulas -->
+        <!-- Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font -->
+        <p>
+            The amount of CO<sub>2</sub> in the atmosphere grey by 2ppm in 2009<sub>1</sub>.
+        </p>
+
+        <hr/>
+
+        <!-- Small Text -->
+        <h1>Small Text</h1>
+        <!-- Any text you wish to appear smaller than normal text can go insise <small></small> tags -->
+        <p>
+            <small>This text is smaller than normal.</small>
+        </p>
+
+        <hr/>
+
+        <!-- Abbreviations -->
+        <h1>Abbreviations & Acronyms</h1>
+        <!-- The HTML <abbr> tag defines an abbreviation or an acronym -->
+        <!-- Use a title attribute on the opening <abbr> tag to spell out the full term of the abbreviation or acronym -->
+        <!-- When you hover over the <abbr> element, the contents of the title attribute will be shown -->
+        <p>
+            The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+        </p>
+
+        <hr/>
+
+        <!-- Bi-Directional Override -->
+        <h1>Bi-Directional Override</h1>
+        <!-- The <bdo> element is used to override the current text direction -->
+        <!-- The <bdo> element uses a dir attribute that takes one of two values, "rtl" for text to be shown right to left, and the default value of "ltr" for left to right text -->
+        <p>
+            <bdo dir="rtl">This text will be written from right to left</bdo>
+        </p>
+
+        <hr/>
+
+        <!-- Quotations -->
+        <h1>Quotations</h1>
+        <!-- The <blockquote> and <q> elements are used to markup quotations -->
+        
+        <!-- The <blockquote> element defines a section that is quoted from another source -->
+        <!-- This element is used for longer quotes that take up an entire paragraph -->
+        <!-- Browsers usually indent <blockquote> elements -->
+        <h2>Blockquote</h2>
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote>
+
+        <!-- The <q> is used for short quotations that sit within a paragraph -->
+        <h2>Quote</h2>
+        <p>
+            WWF's goal is to: <q>Build a future where people live in harmony with nature.</q>
+        </p>
+
+        <!-- Both <blockquote> and <q> may use the cite attribute to indicate where the quote is from. -->
+        <!-- The cite attribute value should be a URL pointing to the source of the quote -->
+        
+        <hr/>
+
+        <!-- Citations -->
+        <h1>Citations</h1>
+        <!-- When you reference a creative work such as a book, poem, song, etc. you can use the <cite></cite> tags -->
+        <!-- Text within a <cite> element is usually rendered in italic -->
+        <p>
+            <cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.
+        </p>
+
+        <hr/>
+
+        <!-- Address -->
+        <h1>Address</h1>
+        <!-- The <address> tag defines the contact information for the author/owner of a document or an article -->
+        <!-- The contact information can be an email address, URL, physical address, phone number, social media handle, etc. -->
+        <!-- The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element -->
+        <address>
+            Written by John Doe.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+    </body>
+</html>
