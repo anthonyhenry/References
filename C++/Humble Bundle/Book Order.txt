@@ -1,0 +1,34 @@
+C++
+----
+The C++ Workshop
+C++ Data Structures and Algorithms
+C++20 STL Cookbook
+Modern C++ Programming Cookbook
+The Modern C++ Challenge
+Hands-On Design Patterns with C++
+Advanced C++ Programming Cookbook
+C++ Game Development By Example
+Hands-On C++ Game Animation Programming
+Expert C++
+C++ System Programming Cookbook
+
+UnReal
+----
+Unreal Engine 4 Game Development Quick Start Guide
+Game Development Projects with Unreal Engine
+Unreal Engine 4.x Scripting with C++ Cookbook, Second Edition
+Unreal Engine Virtual Reality Quick Start Guide
+Unreal Engine 4 Virtual Reality Projects
+Hands-On Artificial Intelligence with Unreal Engine
+Unreal Engine 4 Shaders and Effects Cookbook
+Blueprints Visual Scripting for Unreal Engine 5
+Elevating Game Experiences with Unreal Engine 5
+Reimagining Characters with Unreal Engine's MetaHuman Creator
+Unreal Engine 5 Character Creation, Animation, and Cinematics
+
+Godot
+----
+Godot Engine Game Development Projects
+Game Development with Blender and Godot
+Godot 4 Game Development Projects
+Godot 4 Game Development Cookbook
