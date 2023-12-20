@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Lists</title>
+    </head>
+    <body>
+        <!-- HTML provides use of three different lists -->
+
+        <!-- Ordered Lists -->
+        <!-- Ordered lists are numbered lists and they are created with the <ol> tag -->
+        <!-- Browsers indent lists by default -->
+        <h1>Ordered Lists</h1>
+        <ol>
+            <!-- Each item of a list is placed in a list item, <li></li>, element -->
+            <!-- Ordered list items are marked with numbers by default. This can be changed with CSS -->
+            <li>Chop potatoes into quarters </li>
+            <li>Simmer in salted water for 15-20 minutes until tender</li>
+            <li>Heat milk, butter, and nutmeg</li>
+            <li>Drain potatoes and mash</li>
+        </ol>
+
+        <hr>
+
+        <!-- Unordered Lists -->
+        <!-- Unordered lists are bulleted and can be created by using the <ul> tag -->
+        <h1>Unordered Lists</h1>
+        <ul>
+            <!-- As with Ordered lists, each item in the list is placed in a list item element -->
+            <!-- Unordered list items are marked with bullets by default. This can be changed with CSS -->
+            <li>1kg King Edward Potatoes</li>
+            <li>100ml milk</li>
+            <li>50g salted butter</li>
+            <li>Freshly grated nutmeg</li>
+            <li>Salt and pepper to taste</li>
+        </ul>
+
+        <hr>
+
+        <!-- Description/Definition Lists -->
+        <!-- A description list is a list of terms, with a description of each term. -->
+        <!-- Description lists are created using the <dl> tag followed by <dl> and <dd>  tags -->
+        <h1>Description Lists</h1>
+        <dl>
+            <!-- The <dt></dt> element is used to contain list terms -->
+            <dt>Sashimi</dt>
+            <!-- The <dd></dd> element contains the definition for the preceding term(s) -->
+            <dd>
+                Sliced raw fish that is often served with condiments such as shredded daikon raddish or ginger root, wasabi, and soy sauce
+            </dd>
+
+            <!-- Sometimes you might see two different definitions for a single term -->
+            <dt>Scale</dt>
+            <dd>
+                A device used to accurately measure the weight of ingredients
+            </dd>
+            <dd>
+                A technique by which the scales are removed from the skin of a fish
+            </dd>
+
+            <!-- You might also see two terms that share a single definition -->
+            <dt>Scamorze</dt>
+            <dt>Scamorzo</dt>
+            <dd>
+                An Italian cheese usually made from whole cow's milk (although it was traditionally made from buffalo milk)
+            </dd>
+        </dl>
+
+        <hr>
+
+        <h1>Nested Lists</h1>
+        <!-- Nested Lists -->
+        <!-- You can place lists within <li></li> elements to create nested lists -->
+        <!-- Nested lists get indented further than the parent list and in a different marking when displayed in the browser -->
+        <ul>
+            <li>Mousses</li>
+            <li>Pastries
+                <ul>
+                    <li>Croissant</li>
+                    <li>Mille-feuille</li>
+                    <li>Palmier</li>
+                    <li>Profiterole</li>
+                </ul>
+            </li>
+            <li>Tarts</li>
+        </ul>
+    </body>
+</html>
