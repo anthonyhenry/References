@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Links</title>
+    </head>
+    <body>
+        <!-- Links are created using the <a></a> element and the href attribute -->
+        <!-- The value of the href attribute is the destination that you want the link to direct to -->
+        <!-- Any text between the <a></a> tags is known as link text and clicking on it will send the user to the link's destination -->
+
+        <!-- Absolute Links -->
+        <h1 id="top">Absolute URL Links</h1>
+        <!-- When you link to another website, the value of the href attribute must be the full web address of the site. This is known as an absolute URL -->
+        <p>
+            Social Meida Sites:
+            <ul>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/en/">Tik Tok</a></li>
+                <li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+            </ul>
+        </p>
+
+        <hr>
+
+        <!-- Link Titles -->
+        <h1>Link Titles</h1>
+        <!-- The title attribute sepecifies extra information about the link that is displayed as a tooltip when the user hovers over the link element -->
+        <a href="https://www.worldwildlife.org/" title="Visit the World Wildlife Fund web page">WWF</a>
+
+        <hr>
+
+        <!-- Relative URLs -->
+        <h1>Relative URL Links</h1>
+        <!-- If you want to link to another page in the same folder of the current .html file, you can use a relative link -->
+        <!-- For relative links, the value of the href is just the file name -->
+        <p>
+            HTML Lessons:
+            <ul>
+                <li><a href="02_Text.html">1. Text</a></li>
+                <li><a href="03_Lists.html">2. Lists</a></li>
+            </ul>
+        </p>
+
+        <!-- On larger websites it's a good idea to organize code into folders -->
+        <!-- To link to a page in a different folder you'll need to use '/' to navigate to a different folder. For example: examplesite.com/store/shirts/men. If you need to move back a folder you need to use '../'. For example: ../pants/women -->
+        <!-- The main homepage of a site is called index.html. If a link routes to a folder but not specific file is specified, the index.html file will be linked to if one exists in the folder -->
+
+        <hr>
+
+        <!-- Email Links -->
+        <h1>Email Links</h1>
+        <!-- To create a link that pulls up an email addressed to a specific email address, begin the href attribute with 'mailto:' followed by the email address -->
+        <a href="mailto:me@myemail.com">Email me!</a>
+
+        <hr>
+
+        <!-- Opening Links in a New Window -->
+        <h1>Opening Links in a New Window</h1>
+        <!-- If you want a link to open in a new window, use the target attribute with a value of _blank -->
+        <a href="http://www.google.com" target="_blank">Google</a>
+
+        <hr>
+
+        <!-- Linking to a Specific Part of the Same Page -->
+        <h1>Linking to a Specific Part of the Same Page</h1>
+        <!-- You can link to different parts of the same page by first giving those sections an id attribute, then setting a link's href attribute to that id -->
+        <!-- The href must contain a # before the id name -->
+        <a href="#top">Click to go to top of this page</a>
+
+        <hr>
+
+        <!-- Linking to a Specific Part of Another Page -->
+        <h1>Linking to a Specific Part of Another Page</h1>
+        <!-- You can link to a different part of a different page by using the pages url and id in the link href attribute -->
+        <a href="02_Text.html#bottom">Click to go to the bottom of a different page</a>
+    
+    </body>
+</html>
